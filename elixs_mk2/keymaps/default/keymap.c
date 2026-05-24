@@ -24,7 +24,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     //                     00      10     20     30     40     50             01       11       21          31             41       51       02       12     22     32     42     52            xx     13       23      33      43       53     110    100    90       80     70       60       111    101    91        81     71       61       112    102    92     82     72     62     xx     103     93      83       73     63
 
-    [2] = LAYOUT_split_3x6(KC_TAB, KC_NO, KC_NO, KC_NO, KC_NO, LSFT(KC_MINS), KC_LSFT, KC_NUBS, S(KC_NUBS), ALGR(KC_NUBS), MS_BTN1, MS_BTN2, KC_LCTL, KC_NO, KC_NO, KC_NO, KC_NO, LSFT(KC_EQL), KC_NO, KC_LALT, KC_ENT, KC_SPC, KC_LWIN, MO(2), KC_NO, KC_NO, MS_RGHT, MS_UP, MS_DOWN, MS_LEFT, KC_NO, KC_NO, KC_RIGHT, KC_UP, KC_DOWN, KC_LEFT, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_DEL, KC_ESC, KC_BSPC, MO(1), MO(3)),
+    [2] = LAYOUT_split_3x6(KC_TAB, KC_NO, KC_NO, KC_NO, KC_NO, KC_GRAVE, KC_LSFT, KC_NUBS, S(KC_NUBS), ALGR(KC_NUBS), MS_BTN1, MS_BTN2, KC_LCTL, KC_NO, KC_NO, KC_NO, KC_NO, LSFT(KC_EQL), KC_NO, KC_LALT, KC_ENT, KC_SPC, KC_LWIN, MO(2), KC_NO, KC_NO, MS_RGHT, MS_UP, MS_DOWN, MS_LEFT, KC_NO, KC_NO, KC_RIGHT, KC_UP, KC_DOWN, KC_LEFT, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_DEL, KC_ESC, KC_BSPC, MO(1), MO(3)),
 
     //                     00      10     20     30     40     50     01       11     21     31     41     51     02       12     22     32     42       52       xx     13       23      33      43       53     110            100    90     80     70     60     111     101     91     81     71     61     112    102    92     82     72     62     xx     103     93      83       73     63
 
